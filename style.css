@@ -1,0 +1,374 @@
+.telephone {
+    width: 480px;
+    height: 800px;
+    background-image: url(./png/pngwing.com.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ---------header------------ */
+.telephone__header {
+    border-bottom: 2.5px solid #ff0000be;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-10px);
+    padding: 10px;
+    
+}
+.header__icon {
+}
+/* -----------header------------ */
+
+
+/* ---------------------main---------------- */
+.telephone__main {
+   /*  margin-top: -150px; */
+    width: 60%;
+}
+.telephone__block {
+    background-color: rgb(255, 0, 0);
+    transform: translateY(-30px);
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    border-radius: 25px;
+
+}
+.telephone-block__shirt {
+    width: 80px;
+    transition: 0.5s;
+    
+}
+.telephone-block__shirt:hover{
+    transform: scale(5);
+    transform: rotate(10000deg);
+   /*  transform: skew(20deg); */
+}
+.telephone-squares {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.telephone-squares__arrow-left {
+    transition: 0.5s;
+}
+.telephone-squares__arrow-left:hover{
+    transform: scale(2);
+}
+
+.telephone-squares__box {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+    border-radius: 7px;
+    transition: 1s;
+}
+.telephone-squares__box:hover{
+    transform: scale(1.5);
+}
+.telephone-squares__arrow-right {
+    transition: 0.5s;
+}
+.telephone-squares__arrow-right:hover{
+    transform: scale(2);
+}
+.telephone-line {
+}
+.line__inside {
+    width: 30%;
+    border-radius: 20px;
+    padding: 5px;
+    transform: translateY(30px);
+    background-color: rgb(185, 9, 9);
+}
+.line__inside:nth-child(2){
+    width: 20%;
+    transform: translateY(40px);
+}
+/* ---------------------main---------------- */
+
+
+/* --------------footer--------------- */
+.telephone__footer {
+    margin-bottom: 130px;
+   /*  transform: translateY(-80px); */
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 50%;
+}
+.footer-block {
+    transform: translateY(80px);
+}
+.footer-block__circle {
+    border-radius: 20px;
+    background-color: crimson;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.telephone-btn {
+    display: flex;
+    transform: translateX(25px);
+    margin-top:-19px;
+    border-radius: 25px;
+    background-color: crimson;
+    color: #fff;
+}
+.footer-icon {
+    color: crimson;
+}
+.stars{
+    display: flex;
+    transform: translateY(-80px);
+    color: #ff0000;
+}
+.footer-line {
+    border-radius: 20px;
+    background-color: #ff0000;
+    width: 200px;
+    height: 2.5px;
+    transform: translateY(-110px)
+}
+/* --------------footer--------------- */
+
+.benifits {
+    width: 500px;
+    height: 450px;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    transform: translate(255px);
+    margin-bottom: -500px;
+    padding: 120px 0 0 0;  
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.block-1 {
+    width: 180px;
+    height: 180px;
+    /* border: 1px solid #000; */
+    background-image: url(./png/футболка.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #001eff;
+    border-radius: 25px;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+.block-1:hover{
+    transform: scale(1.1);
+}
+.stars-1 {
+    transform: translateY(190px);
+}
+.line-block {
+    width: 170px;
+    height: 5px;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: px;
+    transform: translateY(5px);
+    background-color: rgb(9, 21, 185);
+}
+.line-block2{
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 2px;
+    transform: translateY(10px);
+    background-color: rgb(9, 21, 185);
+}
+
+.block-2 {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #000;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #000;
+    background-image: url(./png/cerf.lzlm2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #001eff;
+    border-radius: 25px;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+.block-2:hover{
+    transform: scale(1.1);
+}
+.block-3 {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #000;
+    background-image: url(./png/штані.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #001eff;
+    border-radius: 25px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.block-3:hover{
+    transform: scale(1.1);
+}
+.block-4 {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #ff0000;
+    background-image: url(./png/сукаблядь.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #001eff;
+    border-radius: 25px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.block-4:hover{
+    transform: scale(1.1);
+}
+.card{
+    width: 380px;
+    height: 250px;
+    background-color: #055a88;
+    border-radius: 25px;
+    transform: translate(1100px) ;
+    position: absolute;
+    margin-top: 300px;
+} 
+.card:hover{
+    border-radius: 0px;
+}
+.circule {
+    display: flex;
+    justify-content: end;
+    padding: 25px;
+    
+}
+.object1 {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+}
+.object2 {
+    background-color: #070095;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    transform: translateX(-5px);
+}
+.line2i3 {
+    display: flex;
+    justify-content: space-around;
+}
+.line_2 {
+    width: 150px;
+    height: 23px;
+    background-color: #070095;
+    border-radius: 25px;
+}
+.line_3 {
+    width: 125px;
+    height: 23px;
+    background-color: #070095;
+    border-radius: 25px;
+}
+.priama {
+    background-color: #055a88;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+.priama_1 {
+    background-color: #ffffff;
+    width: 120px;
+    height: 15px;
+    border-radius: 25px;
+}
+.priama_2 {
+    background-color: #ffffff;
+    width: 70px;
+    height: 15px;
+    border-radius: 25px;
+}
+.priama_3 {
+    background-color: #ffffff;
+    width: 120px;
+    height: 15px;
+    border-radius: 25px;
+}
+.zdorova_priama {
+    background-color: #070095;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+.circule_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+    color: #fff;
+}
+.span{
+    margin: 1.7px;
+}
+.checkout {
+    background-color: #070095;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+    position: absolute;
+    transform: translateX(1100px);
+    margin-top: 580px;
+}
+.proceed {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 2em;
+    width: 480px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+    position: absolute;
+    transform: translateX(1280px);
+    margin-top: 160px;
+}
+.sumka {
+    background-image: url(./png/sumka.png);
+    width: 280px;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    margin-top: 50px;
+    position: absolute;
+    transform: translateX(1500px);
+    margin-top: 380px;
+}
